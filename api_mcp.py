@@ -20,7 +20,7 @@ FOOTBALL_API_BASE = "http://v3.football.api-sports.io"
 async def make_api_request(endpoint: str):
     headers = {
         'x-rapidapi-host': FOOTBALL_API_BASE,
-        'x-rapidapi-key': "976b59b82b19ef79e501d1bd38333a3a"
+        'x-rapidapi-key': ""
     }
 
     async with httpx.AsyncClient() as conn:
